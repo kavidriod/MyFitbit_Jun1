@@ -65,51 +65,8 @@ public class MainActivity extends AppCompatActivity {
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // AuthApiInterface apiInterface = AuthApiClient.getClient().create(AuthApiInterface.class);
-
-              /*  String url = "https://www.fitbit.com/oauth2/authorize?" +
-                        "response_type=code" +
-                        "&client_id=228K7X" +
-                        "&expires_in=2592000" +
-                        "&scope=profile%20settings%20weight" +
-                        "&redirect_uri=https://www.chronicwatchapp.com:8443/CareGiver/" +
-                        "&prompt=login";*/
-
 
                 startActivity(new Intent(getApplicationContext(), GetCodeActivity.class));
-
-         /*       Log.i(TAG,"url "+urls);
-
-             //   customTabsIntent.launchUrl(MainActivity.this, Uri.parse(url));
-
-                try {
-                    URL url = new URL(urls);
-                    HttpURLConnection connection = (HttpURLConnection)url.openConnection();
-                    connection.setRequestMethod("GET");
-                    connection.setDoInput(true);
-                    connection.connect();
-
-                    InputStream inputStream = connection.getInputStream();
-                    BufferedReader rd = new BufferedReader(new InputStreamReader(inputStream));
-
-                    String webServiceInfo = "";
-
-                    while ((webServiceInfo = rd.readLine()) != null){
-                        Log.e("****Step 1***", "Webservice: " + webServiceInfo);
-                        String result[]=webServiceInfo.split("=");
-                        String result2 = result[1];
-                        String result3[]=result2.split("&");
-                       String   authToken = result3[0];
-                    }
-
-                } catch (MalformedURLException e) {
-                    e.printStackTrace();
-                } catch (ProtocolException e) {
-                    e.printStackTrace();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }*/
-
 
 
 

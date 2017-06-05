@@ -46,7 +46,7 @@ String code;
                 "&client_id=228K7X" +
                 "&expires_in=1000" +
                 "&scope=profile%20settings%20weight" +
-                "&redirect_uri=http://www.chronicwatch.com/" ;
+                "&redirect_uri=http://www.google.com/" ;
 
         Log.i(TAG," urls ? "+urls);
 
