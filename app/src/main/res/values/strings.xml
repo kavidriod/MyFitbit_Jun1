@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyFitbit_Jun1</string>
+    <string name="title_activity_get_code">GetCodeActivity</string>
+</resources>
